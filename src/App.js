@@ -39,7 +39,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="mt-2 mainContainer">
-        <div className="row p-3" style={{ paddingRight: "0px" }}>
+        <div className="row p-3 " style={{ paddingRight: "0px" }}>
           <ShoeList shoes={shoes} addToCart={addToCart} />
           <Cart cart={cart} addToCart={addToCart} decreaseQuantity={decreaseQuantity} />
         </div>

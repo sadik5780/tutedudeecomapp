@@ -5,8 +5,8 @@ function Cart({ cart, addToCart, decreaseQuantity }) {
 
   return (
     <div
-      className="col-md-4 p-3 pt-0 bg-light rounded shadow-sm"
-      style={{ position: "sticky", top: "0px", height: "fit-content" }}
+      className="col-md-4 p-3 pt-0 bg-light rounded shadow-sm sticky-cart"
+     
     >
       <h4 className="mb-3">🛒 Shopping Cart</h4>
       <ul className="list-group">
